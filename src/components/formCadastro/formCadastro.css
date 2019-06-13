@@ -1,0 +1,32 @@
+.form-cadastro {
+    position: relative;
+    top: -45px;
+    border: 2px solid #ed9800 ;
+    margin-top: -20px;
+}
+
+.form-cadastro-content {
+    padding: 30px;
+}
+
+.form-cadastro-content .row {
+    margin-bottom: 0;
+}
+
+.form-cadastro > .form-titulo {
+    background: #ed9800;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.wrap-button {
+    padding: 0 30px;
+}
+.cadastrar {
+    width: 100%;
+    background-color: #ed9800;
+    color: white;
+}
