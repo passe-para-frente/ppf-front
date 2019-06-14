@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class NavHeader extends Component {
   render() {
@@ -6,8 +7,11 @@ export default class NavHeader extends Component {
       <div className="navbar-fixed">
         <nav className="green">
           <div className="nav-wrapper container">
-            <a href="#home" className="brand-logo">Passe Para Frente</a>
+            <Link to="/">
+              <div className="brand-logo">Passe Para Frente</div>
+            </Link>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
+
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#receber">Receber</a></li>
                 <li><a href="#contato">Contato</a></li>
