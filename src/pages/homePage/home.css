@@ -36,3 +36,8 @@
 .about-section {
     min-height: 100vh;
 }
+
+.pf-details-section {
+    background: #ed9800;
+    height: 100vh;
+}

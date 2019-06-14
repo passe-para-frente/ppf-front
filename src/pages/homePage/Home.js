@@ -62,6 +62,30 @@ export default class Home extends Component {
             </div>
           </div>
         </section>
+
+        <section className="pf-details-section">
+          <div className="container">
+            <div className="row">
+              <div className="col s12 l6">
+                <h1>Como funciona?</h1>
+                <p>Pessoas físicas e jurídicas podem doar. Para isso, o fluxo do site permite que façam o cadastro com
+                    login, preencham as informações sobre o material e escolham a instituição que querem doar.
+                </p>
+
+                <h3>É tudo muito rápido!</h3>
+
+                <p>Após completada a doação, a organização entrará em contato via e-mail ou telefone para informar a data
+                    de retirada do material.
+
+                </p>
+                <p>As instituições e escolas tem seus próprios cadastros e informações completas disponíveis no site para
+                consulta.</p>
+              </div>
+              <div className="col s12 l6">
+              </div>
+            </div>
+          </div>
+        </section>
       </>
     );
   }
