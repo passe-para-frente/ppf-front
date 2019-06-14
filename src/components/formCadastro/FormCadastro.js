@@ -6,7 +6,7 @@ export default class FormCadastro extends Component {
   render() {
     return(
         <>
-            <div className="form-cadastro">
+            <div className="form-cadastro z-depth-1">
                 <div className="form-titulo white-text">
                     Quero doar
                 </div>
