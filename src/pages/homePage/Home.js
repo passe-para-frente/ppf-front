@@ -3,7 +3,8 @@ import React from 'react';
 import Header from '../../components/header/NavHeader';
 import './home.css';
 
-import BannerPrincipal from '../../assets/images/banner_principal.jpg';
+import BannerPrincipal from '../../assets/images/img-background-bg.png';
+import LogoMain from '../../assets/images/logo.png';
 import FormCadastro from '../../components/formCadastro/FormCadastro';
 
 import livro from '../../assets/images/livro-icon.png';
@@ -26,9 +27,14 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col s12 l7">
-                <h2 className="white-text">Passe para frente</h2>
-
-                <div className="white-text">
+                <img
+                  className="logo-main"
+                  src={LogoMain}
+                  alt="Logo Passe Para a Frente"
+                />
+              </div>
+              <div className="col s12 l5">
+                <div className="about-home white-text">
                   <p>
                     <strong>Passe para Frente</strong> é um site de{' '}
                     <strong>doação de material esportivo</strong>, livro ou
@@ -37,11 +43,9 @@ function Home() {
                     escolas da rede pública de ensino e crianças. Queremos com
                     isso estimular a cultura de doação no país.
                   </p>
-                </div>
-
-                <div className="saiba-mais orange-text text-accent-3">
-                  <strong>SAIBA MAIS</strong>
-                  <i className="material-icons">expand_more</i>
+                  <div className="saiba-mais">
+                    <strong>SAIBA MAIS</strong>
+                  </div>
                 </div>
               </div>
             </div>
