@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../../components/header/NavHeader';
+import Header from '../../components/Header/NavHeader';
 import './home.css';
 
 import BannerPrincipal from '../../assets/images/img-background-bg.png';
