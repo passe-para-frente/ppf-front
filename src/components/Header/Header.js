@@ -11,17 +11,20 @@ function Header() {
     <Container>
       <nav>
         <Link to="/">
-          <img className="logo-menu" src={LogoMenu} alt="logo menu" />
+          <img src={LogoMenu} alt="logo menu" />
         </Link>
-        <ul id="nav-mobile" className="right hide-on-med-and-down">
+        <ul>
           <li>
-            <a href="#sobre">Sobre</a>
+            <a href="#sobre">O que é</a>
           </li>
           <li>
-            <a href="#receber">Receber</a>
+            <a href="#receber">Como funciona</a>
           </li>
           <li>
-            <a href="#contato">Contato</a>
+            <a href="#contato">O que doar</a>
+          </li>
+          <li>
+            <a href="#login">Contato</a>
           </li>
           <li>
             <a href="#login">Login</a>
