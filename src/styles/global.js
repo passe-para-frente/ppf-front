@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
   * {
     padding: 0;
@@ -11,17 +12,18 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   body, input, button {
     font: 14px Roboto sans-serif;
   }
 
-  #root {
+  /* #root {
     max-width: 1020px;
     margin: 0 auto;
     padding: 0 20px 50px;
-  }
+  } */
 
   button {
     cursor: pointer;
