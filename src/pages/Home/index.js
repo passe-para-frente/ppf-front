@@ -1,58 +1,20 @@
 import React from 'react';
 
 import Header from '../../components/Header/Header';
-import './home.css';
+// import './home.css';
 
-import BannerPrincipal from '../../assets/images/img-background-bg.png';
-import LogoMain from '../../assets/images/logo.png';
 import FormCadastro from '../../components/formCadastro/FormCadastro';
 
 import livro from '../../assets/images/livro-icon.png';
 import bola from '../../assets/images/bola-icon.png';
 
-function Home() {
+import MainSection from './sections/Main';
+
+function Main() {
   return (
     <>
       <Header />
-      <section className="main-section">
-        <img
-          className="responsive-img"
-          src={BannerPrincipal}
-          alt="Imagem de fundo"
-        />
-
-        <div className="cover" />
-
-        <div className="main-section-content">
-          <div className="container">
-            <div className="row">
-              <div className="col s12 l7">
-                <img
-                  className="logo-main"
-                  src={LogoMain}
-                  alt="Logo Passe Para a Frente"
-                />
-              </div>
-              <div className="col s12 l5">
-                <div className="about-home white-text">
-                  <p>
-                    <strong>Passe para Frente</strong> é um site de{' '}
-                    <strong>doação de material esportivo</strong>, livro ou
-                    vestuário onde pessoas físicas e jurídicas podem{' '}
-                    <strong>doar</strong> a fim de contribuir com instituições,
-                    escolas da rede pública de ensino e crianças. Queremos com
-                    isso estimular a cultura de doação no país.
-                  </p>
-                  <div className="saiba-mais">
-                    <strong>SAIBA MAIS</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <MainSection />
       <section className="about-section">
         <div className="container">
           <div className="row">
@@ -138,4 +100,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Main;

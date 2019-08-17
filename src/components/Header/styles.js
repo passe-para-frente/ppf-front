@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
+  position: fixed;
+  z-index: 1;
   width: 100%;
   background-color: #1e76ba;
 
