@@ -7,6 +7,7 @@ import cadIcon from '../../../../assets/images/about/cad.png';
 import contatoIcon from '../../../../assets/images/about/contato.png';
 import infoIcon from '../../../../assets/images/about/info.png';
 import insituicaoIcon from '../../../../assets/images/about/instituicao.png';
+import arrowIcon from '../../../../assets/images/about/arrow.png';
 
 export default function About() {
   return (
@@ -39,6 +40,7 @@ export default function About() {
             <br /> cadastro
           </span>
         </li>
+        <img src={arrowIcon} alt="" />
         <li>
           <img src={infoIcon} alt="informações sobre a doação" />
           <span>
@@ -47,18 +49,21 @@ export default function About() {
             sobre a doação
           </span>
         </li>
+        <img src={arrowIcon} alt="" />
         <li>
           <img src={insituicaoIcon} alt="escolha a instituição" />
           <span>
             Escolha a <br /> instituição que <br /> quer ajudar
           </span>
         </li>
+        <img src={arrowIcon} alt="" />
         <li>
           <img src={contatoIcon} alt="aguarde contato da organização" />
           <span>
             Aguardo contato <br /> da organização
           </span>
         </li>
+        <img src={arrowIcon} alt="" />
         <li>
           <img src={agendaIcon} alt="agende uma data" />
           <span>

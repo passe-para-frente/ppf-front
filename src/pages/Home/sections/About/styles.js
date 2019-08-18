@@ -42,6 +42,7 @@ export const Container = styled.section`
 export const AboutDetails = styled.ul`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
 
   li {
