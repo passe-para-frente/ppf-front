@@ -8,6 +8,7 @@ import Header from '../../components/Header/Header';
 import MainSection from './sections/Main';
 import AboutSection from './sections/About';
 import DetailsSection from './sections/Details';
+import ContactSection from './sections/Contact';
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
       <MainSection />
       <AboutSection />
       <DetailsSection />
+      <ContactSection />
     </>
   );
 }
