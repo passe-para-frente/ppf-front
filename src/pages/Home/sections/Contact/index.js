@@ -1,15 +1,24 @@
 import React from 'react';
 import { Form, Input } from '@rocketseat/unform';
 
-import { Container, ContactHeader, ContactInfo, ContactForm } from './styles';
+import {
+  Container,
+  ContainerContent,
+  ContactHeader,
+  ContactInfo,
+  ContactForm,
+} from './styles';
 
 import logo from '../../../../assets/images/contact/logo-black.png';
 
 export default function Contact() {
   return (
-    <>
-      <ContactHeader>Entre em contato</ContactHeader>
-      <Container>
+    <Container>
+      <ContactHeader>
+        <h1>Entre em contato</h1>
+        <span>contato@institutocades.com.br</span>
+      </ContactHeader>
+      <ContainerContent>
         <ContactInfo>
           <div>
             <img src={logo} alt="" />
@@ -32,7 +41,7 @@ export default function Contact() {
             <button type="submit">Send</button>
           </Form>
         </ContactForm>
-      </Container>
-    </>
+      </ContainerContent>
+    </Container>
   );
 }
